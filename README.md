@@ -1,7 +1,5 @@
 # 🌐 NexusTor | Advanced P2P Network Suite
 
-<div align="center">
-
 ![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
@@ -19,24 +17,13 @@
          ░    ░  ░ ░    ░     ░           ░               ░ ░     ░     
 ```
 
-*A Powerful P2P Network Suite by Kcyb3r*
+*A Powerful P2P Network Suite by Kcyb3r* </br>
+*Download Movies, Anime, and etc ..*
 
-## 📋 Table of Contents
-- [Features](#-features)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [GUI Interface](#-gui-interface)
-- [CLI Interface](#-cli-interface)
-- [Advanced Features](#-advanced-features)
-- [Performance Optimizations](#-performance-optimizations)
-- [Requirements](#-requirements)
-- [Contributing](#-contributing)
-- [Disclaimer](#-disclaimer)
-
-## 🚀 Features
+<img width="800" height="626" alt="image" src="https://github.com/user-attachments/assets/967cd150-597c-474a-98ae-b3f30244fcfd" />
 
 ### Core Functionality
-- Dual interface modes (GUI and CLI)
+- Dual interface modes (GUI and CLI) via `nexustor_gui.py` and `nexustor_core.py`
 - Advanced torrent search capabilities
 - Intelligent metadata fetching system
 - Parallel download processing
@@ -63,18 +50,18 @@
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/torrent-tool.git
-cd torrent-tool
+git clone https://github.com/kcyb3r/NexusTor.git
+cd NexusTor
 ```
 
 2. Install dependencies:
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 3. Run the launcher:
 ```bash
-python3 torrent_launcher.py
+python3 main.py
 ```
 
 ## 💻 Usage
@@ -82,13 +69,12 @@ python3 torrent_launcher.py
 ### Quick Start
 1. Launch the application:
 ```bash
-python3 torrent_launcher.py
+python3 nexustor_launcher.py
 ```
 
 2. Choose your preferred interface:
-- Option 1: GUI Interface
-- Option 2: CLI Interface
-- Option 3: Exit
+- GUI Interface: Launches the graphical interface via `nexustor_gui.py`
+- CLI Interface: Uses the core functionality via `nexustor_core.py`
 
 ### GUI Interface
 The GUI provides an intuitive interface with:
@@ -116,28 +102,12 @@ Command-line interface offers:
 - Tracker optimization
 - Fallback mechanisms
 
-### Performance Optimizations
-- Intelligent caching system
-- Connection pooling
-- Adaptive buffer sizes
-- Smart peer selection
-- Resource management
-
 ### Network Features
 - UDP tracker support
 - DHT network integration
 - PEX peer exchange
 - IPv6 support
 - NAT traversal
-
-## 📊 Performance Optimizations
-
-The tool implements several optimizations:
-- Parallel metadata fetching
-- Connection pooling
-- Memory management
-- Disk I/O optimization
-- Network protocol optimization
 
 ## 📋 Requirements
 
@@ -148,21 +118,12 @@ The tool implements several optimizations:
 - Internet connection
 
 ### Python Dependencies
-- libtorrent-rasterbar ≥ 2.0.0
-- requests ≥ 2.31.0
-- aiohttp ≥ 3.9.0
-- asyncio ≥ 3.4.3
-- PyQt6 (for GUI version)
+- python-libtorrent >= 2.0.0
+- requests >= 2.31.0
+- aiohttp >= 3.9.0
+- asyncio >= 3.4.3
+- typing-extensions >= 4.8.0
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## ⚠️ Disclaimer
 
@@ -186,31 +147,18 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
    - Check peer availability
 
 3. **GUI Not Launching**
-   - Verify PyQt6 installation
    - Check system resources
    - Verify Python version
+   - Check all dependencies are installed
 
 ### Support
 For issues and support:
-1. Check the [Issues](https://github.com/yourusername/torrent-tool/issues) page
+1. Check the Issues page on the repository
 2. Create a new issue with detailed information
 3. Join our community discussions
 
-## 🔄 Updates
-
-Stay updated with the latest features and improvements:
-```bash
-git pull origin main
-pip install -r requirements.txt
-```
-
-## 🌟 Acknowledgments
-
-- Thanks to all contributors
-- Built with Python and libtorrent
-- Special thanks to the open-source community
 
 ---
-<div align="center">
 Made by Kcyb3r...
-</div>
+
+---
